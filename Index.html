@@ -23,8 +23,6 @@ body{margin:0;background:#F1F3F7;color:#151D2E;font:500 16px system-ui,sans-seri
 <body>
 <div id="boot"><img src="icon-192.png" alt=""><div id="bootmsg">Loading AfOx Roll Call…</div></div>
 <script>
-/* This page never needs changing. It downloads the current app from your Apps Script link,
-   keeps a copy for offline use, and the app itself offers updates when Apps Script is updated. */
 (function () {
   var KEY = "afox-client";
   function say(t) { var m = document.getElementById("bootmsg"); if (m) m.textContent = t; }
